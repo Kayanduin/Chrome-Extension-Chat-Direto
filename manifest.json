@@ -1,0 +1,16 @@
+ {
+    "name": "Chat Direto",
+    "version": "1.0",
+    "description": "Inicie conversas do WhatsApp sem adicionar o número na lista de contatos!",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+        "scripts": ["startChat.js"],
+        "persistent": false
+    },
+    "icons": { 
+        "128": "chat.png",
+        "48": "chat1.png",
+        "16": "chat2.png"
+    },
+    "manifest_version": 2
+  }
