@@ -3,10 +3,7 @@ var contextMenuItem = {
     "title": "Iniciar conversa",
     "contexts": ["selection"]
 };
-/**
- * 
- * @param {*} selectedData 
- */
+
 function newChat(selectedData) {
 
     var telephoneNumber = selectedData.selectionText.normalize('NFD').replace(/([\u0300-\u036f]|[^0-9a-zA-Z])/g, '');
